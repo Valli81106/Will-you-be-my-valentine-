@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="questionBox">
+        <img id = "questionImage" src="images/valli4.jpg" alt="question image">
+        <h1 id="question">yo bbg are you free tommorow?</h1>
+        <button class="btn" onclick="nextQuestion(true)">Yes</button>
+        <button class="btn" onclick="nextQuestion(false)" id="noButton">No</button>
+    </div>
+    
+    <div class="fade-in" id="loveScene">
+        <img src="images/valli1.jpg" alt="Your Pic">
+        <div class="text-overlay">aww you love me so much</div>
+        <div class="text"> its a <span class="rose">date </span>then</div>
+        <div class="text"> get me a <span class="rose">rose</span> tysm</div>
+    </div>
+    
+    <audio id="romanticSong" src="sounds/TV Girl - Lovers Rock (Lyrics).mp3"></audio>
+    
+    <script src="index.js" charset="UTF-8"></script>
+
+</body>
+</html>
